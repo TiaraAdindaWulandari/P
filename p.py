@@ -131,10 +131,10 @@ if st.button('Hitung'):
     st.write('Penguatan Arus Kedua:', current_gain2)
     
     st.subheader('Impedansi Input')
-    st.write('Impedansi Input Pertama (ohm):', input_impedance1)
+    st.write('Impedansi Input Pertama (Kilo ohm):', input_impedance1)
     
     st.subheader('Impedansi Output')
-    st.write('Impedansi Output Kedua (ohm):', output_impedance2)
+    st.write('Impedansi Output Kedua (Kilo ohm):', output_impedance2)
     
     st.subheader('Tampilan Sinyal')
     plot_signals(input_signal, output_signal)
